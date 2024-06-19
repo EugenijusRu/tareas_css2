@@ -1,0 +1,45 @@
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: chartreuse;
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+main :nth-child(4) {
+    background-color: azure;
+    flex-grow: 1;           /* El cuarto enlace también crece uniformemente */
+    flex-basis: 10%;   
+}
+
+main {
+    display: flex;           /* Activa Flexbox en el contenedor */
+    flex-direction: row;     /* Asegura que los elementos estén en fila horizontal */
+}
+
+main a {
+    margin-right: 10px;      /* Espacio entre los enlaces, opcional */
+    text-decoration: none;   /* Quita el subrayado de los enlaces, opcional */
+    color: blue;             /* Color de los enlaces, opcional */
+}
+
+body {
+    width: 80%;
+}
+
+main a {
+    flex-grow: 1;
+}
+
+main a:not(:nth-child(4)) {
+    flex-basis: calc(90% / 3); /* Los tres primeros enlaces ocupan el 80% dividido en partes iguales */
+}
+a {
+    border: 1px solid black;
+}
+

@@ -1,0 +1,32 @@
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: chartreuse;
+    padding: 5px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+main :nth-child(3) {
+    background-color: azure;
+}
+
+main {
+    display: flex;           /* Activa Flexbox en el contenedor */
+    justify-content: flex-start; /* Alinea los elementos hijos a la izquierda */
+    flex-direction: row;     /* Asegura que los elementos estén en fila horizontal */
+}
+
+main a {
+    margin-right: 10px;      /* Espacio entre los enlaces, opcional */
+    text-decoration: none;   /* Quita el subrayado de los enlaces, opcional */
+    color: blue;             /* Color de los enlaces, opcional */
+}
+
+body {
+    width: 50%;
+}

@@ -1,0 +1,21 @@
+h1 {
+    background-color: aqua;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+main {
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;            /* Alinea las imágenes verticalmente en el centro */
+    
+}
+
+main img { 
+    margin: 0;       /* Elimina cualquier margen por defecto */
+    padding: 0;      /* Elimina cualquier padding por defecto */
+}

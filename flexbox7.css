@@ -1,0 +1,40 @@
+h1 {
+    color: cyan;
+    background-color: black;
+    text-align: right;
+    padding-right: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+article {
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+img {
+    width: 350px;
+    margin: 15px;
+}
+
+article:first-child {
+    background-color: aqua;
+}
+
+article:last-child {
+    background-color: blueviolet;
+}
+
+article:nth-child(2) {
+    background-color: hotpink;
+}
+
+p {
+    margin: 10px;
+}
+
+section {
+    display: flex; 
+    flex-wrap: wrap;
+}

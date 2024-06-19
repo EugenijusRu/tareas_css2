@@ -1,0 +1,14 @@
+h1 {
+    background-color: aqua;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+main {
+    background-color: chartreuse;          /* Alinea las imágenes verticalmente en el centro */ 
+}
